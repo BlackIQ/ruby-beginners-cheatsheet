@@ -1,5 +1,5 @@
 # Ruby cheatsheet number 4
-# Arrays
+# Arrays | 1
 
 # Create just a list
 names = [ "Amir", "Fatemeh", "Mohammad", "Ali" ]

@@ -1,6 +1,7 @@
 # Ruby cheatsheet number 3
 # Classes
 
+# Define a global variable
 $year = 2022
 
 # Define a class
@@ -14,7 +15,7 @@ class Person
 
   # Add a sample method
   def age
-    # Return something
+    # Return something and using global variable
     $year - @age
   end
 end

@@ -18,6 +18,15 @@ class Person
     # Return something and using global variable
     $year - @age
   end
+
+  # Create a function with params
+  def friend(friend)
+    # Define friend
+    @friend = friend
+
+    # Print with variables
+    puts "#{@name} is friend with #{@friend}."
+  end
 end
 
 # initial a class with values
@@ -28,3 +37,6 @@ age = amir.age
 
 # Print age
 puts age
+
+# Use a class method with params
+amir.friend("Fatemeh")
